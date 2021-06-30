@@ -195,11 +195,11 @@ $font-size-button-mobile: $font-size-button - 1px;
 
 @font-face {
   font-family: 'icons';
-  src: url('//cdn.shopify.com/s/files/1/0581/8639/9923/t/2/assets/icons.eot?v=2002815656684037727');
-  src: url('//cdn.shopify.com/s/files/1/0581/8639/9923/t/2/assets/icons.eot?v=2002815656684037727#iefix') format("embedded-opentype"),
-       url('//cdn.shopify.com/s/files/1/0581/8639/9923/t/2/assets/icons.woff?v=1501793824200877814') format("woff"),
-       url('//cdn.shopify.com/s/files/1/0581/8639/9923/t/2/assets/icons.ttf?v=2721982321323709976') format("truetype"),
-       url('//cdn.shopify.com/s/files/1/0581/8639/9923/t/2/assets/icons.svg?v=18173388395094512039#shop-icons') format("svg");
+  src: url('//cdn.shopify.com/s/files/1/0581/8639/9923/t/3/assets/icons.eot?v=2002815656684037727');
+  src: url('//cdn.shopify.com/s/files/1/0581/8639/9923/t/3/assets/icons.eot?v=2002815656684037727#iefix') format("embedded-opentype"),
+       url('//cdn.shopify.com/s/files/1/0581/8639/9923/t/3/assets/icons.woff?v=1501793824200877814') format("woff"),
+       url('//cdn.shopify.com/s/files/1/0581/8639/9923/t/3/assets/icons.ttf?v=2721982321323709976') format("truetype"),
+       url('//cdn.shopify.com/s/files/1/0581/8639/9923/t/3/assets/icons.svg?v=18173388395094512039#shop-icons') format("svg");
   font-weight: $font-weight-body;
   font-style: normal;
 }
@@ -219,7 +219,7 @@ $z-index-hero-logo: 5;
 
 /*================ Misc ================*/
 $radius: 2px;
-$svg-action-bar: '//cdn.shopify.com/s/files/1/0581/8639/9923/t/2/assets/action-bar.svg.liquid?4';
+$svg-action-bar: '//cdn.shopify.com/s/files/1/0581/8639/9923/t/3/assets/action-bar.svg.liquid?11';
 
 /*================ #Site Header ================*/
 $height-site-header: 65px;
@@ -1443,7 +1443,7 @@ select {
   @include prefix(appearance, none, webkit moz spec);
   background-position: right center;
   background: {
-    image: url('//cdn.shopify.com/s/files/1/0581/8639/9923/t/2/assets/ico-select.svg?4');
+    image: url('//cdn.shopify.com/s/files/1/0581/8639/9923/t/3/assets/ico-select.svg?v=6656581479834971511');
     repeat: no-repeat;
     position: right 10px center;
     color: transparent;
@@ -3180,7 +3180,7 @@ $slick-opacity-not-active: 0.25;
 
 // Only called once so make sure proper file is grabbed
 @function slick-image-url($url) {
-  @return url(//cdn.shopify.com/s/files/1/0581/8639/9923/t/2/assets/ajax-loader.gif?v=4135686330247201572);
+  @return url(//cdn.shopify.com/s/files/1/0581/8639/9923/t/3/assets/ajax-loader.gif?v=4135686330247201572);
 }
 
 // Unused intentionally
