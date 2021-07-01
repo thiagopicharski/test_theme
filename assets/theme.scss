@@ -219,7 +219,7 @@ $z-index-hero-logo: 5;
 
 /*================ Misc ================*/
 $radius: 2px;
-$svg-action-bar: '//cdn.shopify.com/s/files/1/0581/8639/9923/t/3/assets/action-bar.svg.liquid?11';
+$svg-action-bar: '//cdn.shopify.com/s/files/1/0581/8639/9923/t/3/assets/action-bar.svg.liquid?20';
 
 /*================ #Site Header ================*/
 $height-site-header: 65px;
@@ -4807,13 +4807,26 @@ $slick-opacity-not-active: 0.25;
 .product__photo--single {
   position: relative;
 
+  @include media-query($small) {
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      z-index: 1;
+    }
+  }
+  
   img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    z-index: 1;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1;
+      text-align: center;
+      margin: 65px auto;
+      max-width: 1000px;
   }
 
   .no-js & {
